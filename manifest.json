@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Lembrete de Postura",
+  "version": "1.0",
+  "description": "Uma extensão para lembrar de ajustar a postura na cadeira.",
+  "permissions": ["activeTab", "alarms", "notifications"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "content.js"
+  }
+}
